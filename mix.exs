@@ -107,6 +107,7 @@ defmodule Ejabberd.Mixfile do
                          {config(:pgsql), :p1_pgsql},
                          {config(:sqlite), :sqlite3},
                          {config(:zlib), :ezlib},
+                         {config(:riak), :riakc},
                          {config(:iconv), :iconv}], do:
       app
   end

@@ -173,7 +173,7 @@ AC_ARG_ENABLE(zlib,
 esac],[if test "x$zlib" = "x"; then zlib=true; fi])
 
 AC_ARG_ENABLE(riak,
-[AC_HELP_STRING([--enable-riak], [enable Riak support (default: no)])],
+[AC_HELP_STRING([--enable-riak], [enable Riak support (default: yes)])],
 [case "${enableval}" in
   yes) riak=true ;;
   no)  riak=false ;;
